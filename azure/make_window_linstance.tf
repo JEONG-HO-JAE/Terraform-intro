@@ -4,7 +4,7 @@ resource "azurerm_windows_virtual_machine" "window" {
   location            = azurerm_resource_group.terraform_group.location
   size                = "Standard_B1s"
   admin_username      = "hojae"
-  admin_password      = "Ghwo1916037!#%"
+  admin_password      = ""
   network_interface_ids = [azurerm_network_interface.window_nic.id]
 
   os_disk {
