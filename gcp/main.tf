@@ -41,7 +41,7 @@ resource "google_compute_instance" "instance-1" {
   }
 
   service_account {
-    email  = "terraform@practiciac.iam.gserviceaccount.com"
+    email  = ""
     scopes = ["https://www.googleapis.com/auth/cloud-platform"]
   }
 
@@ -52,7 +52,7 @@ resource "google_compute_instance" "instance-1" {
   }
   metadata = {
     "ssh-keys" =  <<EOT
-        hjeong30:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCh2RLZuAbM2xitMLtj4j+P99atH+0te/qqNjnnVSxxTEL+E1lCz5SjyD7ZDiFAqjv/ColeBdOFZAeqYrnUeOoFT/wsO0lIqtAijNHsmgizUYcC+3cEWAkrCz8pHrfnymd9SB5Mp1Lffyf2HGvx4qXkcfCHCFQKPimbVX8BGSxz9DMaui7oirVW1cxPV3bSBTzNYgtrTG4KWl+fa+6qaz4tfxl+t5ftJPFGyNpuKeMmJmmcdCLDqxMC+1myfUrAXJPjBuSZtFPGx6GqTRTqOVaSlA9R2YBMEWXbZ702uPGK5D8NJ0d0gNf/P4QT9JkjyRZUysF6OuvGRV34GDRHhpXeFRtVbxuKZS6oq7IEHOIWGlRttnR1J46FryksIStEYaWaaX/bFgAw/NnkwpRM5UroaVcSbqPlGNvcZbVxSl+qAKdqtw1ZSmM9WhKEszLtBfTO9ybvZ9MjSAE8yDNSX/bP0MoBZXtPa8WRvjCBZY6hkxsd44ORLEXRRlM8jKv+Qp8= hjeong30@asu.edu
+        hjeong30:ssh-rsa 
 EOT
   }
 
