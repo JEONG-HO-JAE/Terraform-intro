@@ -53,5 +53,5 @@ EOF
 
 resource "aws_key_pair" "hojae" {
   key_name   = "hojae"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDb5Kdl0Bf+hRqcNEn82x3flFxoTh8GvpOBSFn9vJJmQtXqnPP5FJ+afA6hmBVuMfVBSCdBE9plgtfqEMqq/I1yxgspKejy01XLaEyLsvx3m5y1F4rtv/Sn+UO/4/6JJ/HdLUxLpO3TRN1w6EVrqUjr88Jg8rEAcWnGUL5G875cpev878cAmCgWVVzr/1122wI/vDDXnP+zUG/dR4iZcbDSB7P70eVrMTZGMhiJYBF0Q4LuSyn6cKrWrM3yQg2uJ+/A+5MbQ4w+WPT6HZtZZRWcIiNwlw7wCQOi8jgNDeXaP9ETj+6MNqd6cliLKYp1onK19aypcyqVULm6calU1Uf9 centos@hojae-linux.novalocal"
+  public_key = ""
 }
